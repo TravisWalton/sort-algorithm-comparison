@@ -8,16 +8,14 @@ namespace sort_algorithm_comparison
 {
     class QuickSort
     {
-        public QuickSort(int[] args)
+        public static void Quick_Sort(int[] args)
         {
             int size = args.Length;
-            Console.WriteLine("QuickSort: Unsorted: ");
-            ShowArray(args, size);
 
             Sort(args, size);
 
-            Console.WriteLine("QuickSort: Sorted: ");
-            ShowArray(args, size);
+            Console.WriteLine("QuickSort Sorted: ");
+            DisplayElements.ShowElements(args, size);
         }
 
         public static void ShowArray(int[] arr, int n)
