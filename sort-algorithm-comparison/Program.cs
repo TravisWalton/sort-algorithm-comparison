@@ -25,7 +25,7 @@ namespace sort_algorithm_comparison
 
             Console.WriteLine("Starting comparsion...");
 
-            //BubbleSort(a);
+            BubbleSort.Bubble_Sort(a);
             //HeapSort(a);
             //InsertionSort(a);
             MergeSort.Merge_Sort(a);
